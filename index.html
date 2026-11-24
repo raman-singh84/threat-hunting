@@ -1,17 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Scraping Practice Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSync Imaginary Organisation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #222;
+        }
+        header {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #0056b3;
+            margin-bottom: 5px;
+        }
+        .ioc-section {
+            background-color: #f4f6f9;
+            border-left: 4px solid #d9534f;
+            padding: 15px 20px;
+            margin-top: 25px;
+        }
+        ul.ip-list {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #c9302c;
+        }
+    </style>
 </head>
 <body>
-    <h1>Product List</h1>
-    <div class="item">
-        <h2 class="title">Wireless Mouse</h2>
-        <span class="price">£19.99</span>
-    </div>
-    <div class="item">
-        <h2 class="title">Mechanical Keyboard</h2>
-        <span class="price">£59.50</span>
-    </div>
+
+    <header>
+        <h1>TechSync Imaginary Organisation</h1>
+        <p><em>Cyber Defence &amp; Threat Intelligence Portal</em></p>
+    </header>
+
+    <section class="about-soc">
+        <h2>Security Operations &amp; Threat Hunting</h2>
+        <p>
+            The Security Operations Centre (SOC) at TechSync Imaginary Organisation monitors global network infrastructure 24/7 to detect, analyse, and respond to emerging cyber threats. 
+        </p>
+        <p>
+            Our dedicated Threat Hunting team proactively searches across endpoints, firewall telemetry, and DNS logs to uncover stealthy adversaries and Indicators of Compromise (IOCs) before they can impact business operations.
+        </p>
+    </section>
+
+    <section class="ioc-section">
+        <h3>Daily Threat Intelligence Feed</h3>
+        <p>Today's identified malicious IP addresses are given below:</p>
+        <ul class="ip-list">
+            <li class="malicious-ip">198.51.100.42</li>
+            <li class="malicious-ip">203.0.113.119</li>
+            <li class="malicious-ip">192.0.2.87</li>
+        </ul>
+    </section>
+
 </body>
 </html>
